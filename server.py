@@ -12,7 +12,7 @@ port = 5555
 # Assigning socket and verifying if the connection can be made, if not, return an error
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server_ip = socket.gethostbyname(server)
+# server_ip = socket.gethostbyname(server)
 
 try:
     s.bind((server, port))
